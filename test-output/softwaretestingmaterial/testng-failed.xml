@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [softwaretestingmaterial]">
+  <test name="testngTest(failed)">
+    <classes>
+      <class name="com.test.Sample.DataProviderTest">
+        <methods>
+          <include name="Teardown"/>
+          <include name="loginBonzai" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- com.test.Sample.DataProviderTest -->
+    </classes>
+  </test> <!-- testngTest(failed) -->
+</suite> <!-- Failed suite [softwaretestingmaterial] -->
